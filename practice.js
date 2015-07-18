@@ -6,6 +6,8 @@ var outer = function(){
     return 'The original name was ' + name;
   }
 }
+
+something
 //Above you're given a function that returns another function which has a closure over the name variable.
 //Invoke outer saving the return value into another variable called 'inner'.
 
@@ -63,7 +65,3 @@ var callFriend = function(){
   Once completed, add a second argument that allows the function to be invoked N number of times.
   After the function has been called N number of times, console.log('STAHHP');
 */
-
-
-
-
